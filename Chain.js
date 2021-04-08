@@ -15,6 +15,10 @@ class Chain{
         this.chain.bodyA = null;
     }
 
+    attach(polygon){
+        this.chain.bodyA = polygon;
+    }
+
     display(){
         if(this.chain.bodyA){
             var pointA = this.chain.bodyA.position;

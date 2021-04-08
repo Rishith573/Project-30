@@ -13,18 +13,18 @@ class Box4 {
     display(){
       
 
-      if (this.body.speed<9){
+      /*if (this.body.speed<9){*/
         var pos =this.body.position;
         rectMode(CENTER);
         fill(rgb(242, 191, 9));
         rect(pos.x, pos.y, this.width, this.height);
-      } else {
-        World.remove(world, this.body);
+      //} else {
+        /*World.remove(world, this.body);
         this.visibility = this.visibilty-5
         push();
         tint(255, this.visibility);
-        pop();
-      }
+        pop();*/
+      //}
     }
   };
   
