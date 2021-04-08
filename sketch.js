@@ -144,6 +144,6 @@ function mouseReleased(){
 
 function keyPressed(){
   if(keyCode === 32){
-    chain.attach(polygon.body);
+    chain.attach(polygon);
   }
 }
