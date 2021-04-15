@@ -10,20 +10,16 @@ class Box3 {
       this.height = height;
       World.add(world, this.body);
     }
+    
     display(){
-      
-      /*if (this.body.speed<10){*/
+      if (this.body.speed<5){
         var pos =this.body.position;
         rectMode(CENTER);
         fill(rgb(62, 223, 207));
         rect(pos.x, pos.y, this.width, this.height);
-      //} else {
-        /*World.remove(world, this.body);
-        this.visibility = this.visibilty-5
-        push();
-        tint(255, this.visibility);
-        pop();*/
-      //}
+      } else {
+        World.remove(world, this.body);
+      }
     }
-  };
+  }
   

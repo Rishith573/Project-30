@@ -48,43 +48,43 @@ function setup() {
   box7 = new Box(700, 500, 40, 40);
   
 // second layer of ground1
-  box8 = new Box(500, 400, 40, 40);
-  box9 = new Box2(540, 400, 40, 40);
-  box10 = new Box(580, 400, 40, 40);
-  box11 = new Box2(620, 400, 40, 40);
-  box12 = new Box(660, 400, 40, 40);
+  box8 = new Box(500, 450, 40, 40);
+  box9 = new Box2(540, 450, 40, 40);
+  box10 = new Box(580, 450, 40, 40);
+  box11 = new Box2(620, 450, 40, 40);
+  box12 = new Box(660, 450, 40, 40);
 
 // third layer of ground1
-  box13 = new Box(540, 300, 40, 40);
-  box14 = new Box2(580, 300, 40, 40);
-  box15 = new Box(620, 300, 40, 40)
+  box13 = new Box(540, 400, 40, 40);
+  box14 = new Box2(580, 400, 40, 40);
+  box15 = new Box(620, 400, 40, 40)
 
 // last layer for ground1
-  box16 = new Box(580, 200, 40, 40);
+  box16 = new Box(580, 350, 40, 40);
 
 // creating ground2
   ground2 = new Ground(1000, 410, 235, 20)
 
 // first layer of ground2
-  box17 = new Box3(915, 300, 40, 40);
-  box18 = new Box4(955, 300, 40, 40);
-  box19 = new Box3(995, 300, 40, 40);
-  box20 = new Box4(1035, 300, 40, 40);
-  box21 = new Box3(1075, 300, 40, 40);
+  box17 = new Box3(915, 360, 40, 40);
+  box18 = new Box4(955, 360, 40, 40);
+  box19 = new Box3(995, 360, 40, 40);
+  box20 = new Box4(1035, 360, 40, 40);
+  box21 = new Box3(1075, 360, 40, 40);
 
 // second layer of ground2
-  box22 = new Box3(955, 200, 40, 40);
-  box23 = new Box4(995, 200, 40, 40);
-  box24 = new Box3(1035, 200, 40, 40);
+  box22 = new Box3(955, 300, 40, 40);
+  box23 = new Box4(995, 300, 40, 40);
+  box24 = new Box3(1035, 300, 40, 40);
 
 // last layer of ground2
-  box25 = new Box3(995, 100, 40, 40)
+  box25 = new Box3(995, 250, 40, 40)
   
 }
 
 function draw() {
 // set the background to black
-  background("lightgrey");
+  background(0);
 
   imageMode(CENTER);
   image(polygonImg, polygon.position.x, polygon.position.y, 40, 40);
